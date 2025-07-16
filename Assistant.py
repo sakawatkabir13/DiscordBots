@@ -7,9 +7,9 @@ class Client(discord.Client):
     async def on_ready(self):
         print(f'✅ Logged in as {self.user}!')
         
-        # Example: Send DM to a specific user when bot starts
+        # # Example: Send DM to a specific user when bot starts
         # user_id =   
-        # await self.send_dm(user_id, "ggygyg")
+        # await self.send_dm(user_id, "How are you?")
         
         # user_id=1146063831882285119
         # channel_id=
